@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+    width: 60%;
+    background-color: #f7f4f7;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding:0 20px 20px 20px; 
+}
+
+h1{
+    color: #FF30D0;
+    text-decoration: underline;
+    font-size: 60px;
+    font-style: oblique;
+
+    
+}
+h2,ul {
+    border: 3px solid red;
+    font-style: oblique;
+}
+.job-title{
+    border-bottom: 4px dotted blue;
+    font-size: 30px;
+    text-decoration:2px double blue;
+    font-weight: bold;
+    color: grey;
+    font-style: oblique;
+    
+}
+.job-title,
+ul,
+p{
+    margin:  0px 0px 30px 0px;
+}
+li{
+    margin:0px 0px 15px 0px;
+}
+p{
+    line-height: 20px;
+}
